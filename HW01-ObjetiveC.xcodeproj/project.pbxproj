@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FC5C610D1F7865CD00D6291C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5C610C1F7865CD00D6291C /* main.m */; };
+		FC5C61151F7865F800D6291C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5C61141F7865F800D6291C /* Person.m */; };
+		FC5C61181F78661200D6291C /* MDCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5C61171F78661200D6291C /* MDCPerson.m */; };
+		FC5C611B1F78662D00D6291C /* MDCProfessor.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5C611A1F78662D00D6291C /* MDCProfessor.m */; };
+		FC5C611E1F78665B00D6291C /* MDCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5C611D1F78665B00D6291C /* MDCStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		FC5C61091F7865CD00D6291C /* HW01-ObjetiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW01-ObjetiveC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5C610C1F7865CD00D6291C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC5C61131F7865F800D6291C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FC5C61141F7865F800D6291C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FC5C61161F78661200D6291C /* MDCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCPerson.h; sourceTree = "<group>"; };
+		FC5C61171F78661200D6291C /* MDCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCPerson.m; sourceTree = "<group>"; };
+		FC5C61191F78662D00D6291C /* MDCProfessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCProfessor.h; sourceTree = "<group>"; };
+		FC5C611A1F78662D00D6291C /* MDCProfessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCProfessor.m; sourceTree = "<group>"; };
+		FC5C611C1F78665B00D6291C /* MDCStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCStudent.h; sourceTree = "<group>"; };
+		FC5C611D1F78665B00D6291C /* MDCStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				FC5C610C1F7865CD00D6291C /* main.m */,
+				FC5C61131F7865F800D6291C /* Person.h */,
+				FC5C61141F7865F800D6291C /* Person.m */,
+				FC5C61161F78661200D6291C /* MDCPerson.h */,
+				FC5C61171F78661200D6291C /* MDCPerson.m */,
+				FC5C61191F78662D00D6291C /* MDCProfessor.h */,
+				FC5C611A1F78662D00D6291C /* MDCProfessor.m */,
+				FC5C611C1F78665B00D6291C /* MDCStudent.h */,
+				FC5C611D1F78665B00D6291C /* MDCStudent.m */,
 			);
 			path = "HW01-ObjetiveC";
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5C611E1F78665B00D6291C /* MDCStudent.m in Sources */,
+				FC5C611B1F78662D00D6291C /* MDCProfessor.m in Sources */,
+				FC5C61181F78661200D6291C /* MDCPerson.m in Sources */,
+				FC5C61151F7865F800D6291C /* Person.m in Sources */,
 				FC5C610D1F7865CD00D6291C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
